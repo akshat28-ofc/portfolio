@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Akshat Bhardwaj - Portfolio</title>
+  <meta name="title" content="Akshat Bhardwaj - Web Developer">
+  <meta name="description" content="This is a personal portfolio of Akshat Bhardwaj">
+  <script src="https://kit.fontawesome.com/8f70d9a32d.js" crossorigin="anonymous"></script>
+
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./1.png" type="image">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./1.png">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#home" class="logo">
+        <img src="./1.png" width="40" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#service" class="navbar-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="https://instagram.com/stoic.it" class="navbar-link">Stoic</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Akshat</h1>
+
+            <p class="hero-subtitle">
+              Entrepreneur. Innovator. Creator. Visionary.
+            </p>
+
+            <div class="hero-banner">
+              <img src="./images/hero-banner.png" width="800" height="800" alt="kane williams" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Hi, I'm Akshat Bhardwaj, a web developer, entrepreneur, researcher and startup enthusiast. Passionate about crafting sleek digital experiences, building businesses, and exploring AI, tech, and innovation. Turning bold ideas into reality through creativity, strategy, and execution.
+            </p>
+
+            <a href="https://drive.google.com/file/d/1-QyAESmXrSuLwy2v4uDXDSPmWFYeEt23/view?usp=sharing" class="btn has-before" target="_blank">
+              <span class="span">Resume!</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="service" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Services That I Provide
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Services</h2>
+            </div>
+
+            <p class="section-text">
+              Evolving ideas into powerful realities with innovation and strategy. I specialize in web development, business insights, market research, content creation, and project management and much more. From building digital experiences to scaling businesses, I craft solutions that drive growth, impact, and success in the ever-evolving startup and tech landscape. Turning your vision into reality.
+              <br>
+              <br>
+
+              Explore my services below and discover how I can support you in unlocking new opportunities, driving scale, and shaping the future of your business.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">
+                    Crafting high-performance, sleek, and scalable websites with innovation and precision. I build digital experiences that are fast, interactive, and tailored for business growth in a dynamic online world. 
+                  </p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my website design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Research</h3>
+
+                  <p class="card-text">
+                    Delivering deep business and market insights to drive strategic decisions, uncover opportunities, and fuel growth in an ever-evolving digital landscape. Decoding market trends and business landscapes.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my SEO Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="basket-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Stategy and Tactics</h3>
+
+                  <p class="card-text">
+                    Engineering powerful business, product, and operations strategies with tactical solutions that are game changing, maximize impact, and turn bold ideas into unstoppable success. I can help you to make smart moves.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my eCommerce service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Innovation</h3>
+
+                  <p class="card-text">
+                    Redefining the future of business through innovation—crafting smarter models, breakthrough products, and seamless operations that drive efficiency, scalability, and long-term success in an ever-evolving world.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="megaphone-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Marketing</h3>
+
+                  <p class="card-text">
+                    Marketing isn’t just promotion—it’s precision, psychology, and moves. I can compel narratives, engineer viral growth, and build brands that don’t just compete but dominate in the digital era. Make your presence around the globe.
+                  </p>
+
+                  <span class="text-lg card-number">05</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Analysis and Relations</h3>
+
+                  <p class="card-text">
+                    Leveraging data-driven analysis and strategic relationship management to make smart moves. I decode market trends, consumer behaviour, and business dynamics to build strong, value-driven connections that drive long-term success.
+                  </p>
+
+                  <span class="text-lg card-number">06</span>
+
+                  <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills" aria-label="our skills">
+        <div class="container">
+
+          <p class="section-subtitle">I am a Futurist. Are you?</p>
+
+          <h2 class="h2 section-title">I make a difference for my clients.</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                I don’t just offer services—I architect revolutions. With a fusion of strategy, technology, and groundbreaking creativity, I craft powerful solutions that shatter limitations, redefine industries, and propel clients toward unparalleled success, making them unstoppable forces in their fields. Every idea is transformed into a game-changing strategy, every challenge into an opportunity, and every vision into a reality that dominates the market. My work doesn’t just make a difference—it sets new standards.
+              </p>
+
+              <a href="mailto:akshatb142@gmail.com" class="btn has-before">akshatb142@gmail.com</a>
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Development</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Branding</p>
+
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Research</p>
+
+                    <data class="progress-value" value="95">95%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 95%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Marketing</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">Our Works</p>
+
+            <h2 class="h2 section-title">Portfolio</h2>
+          </div>
+
+          <p class="section-text">
+            Phasellus et lacus suscipit congue nisl the volutpat magna. donec miss the drana risus tincidunt convallis
+            velit orci congue tortor eu dignissim ipsum suam non odio. Pellenta esuntion miss the imperdiet metus
+            ornare.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Innovation</h3>
+
+                  <p class="card-text">Product Innovation</p>
+                </div>
+
+                <a href="https://stoic.com" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Insights</h3>
+
+                  <p class="card-text">Business And Market Research</p>
+                </div>
+
+                <a href="https://aer.com" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./images/portfolio-3.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Web Development</h3>
+
+                  <p class="card-text">UX/UI Design</p>
+                </div>
+
+                <a href="error.html" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./images/portfolio-6.jpg" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Analysis And Tactics</h3>
+
+                  <p class="card-text">Strategy and analytics expert</p>
+                </div>
+
+                <a href="https://monies.com" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #GET IN TOUCH
+      
+      -->
+      <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Get in Touch</h2>
+                <p>We're here to help you on your journey to success. Reach out to us with any questions or concerns.</p>
+            </div>
+    
+            <!-- ✅ Correctly structured form with Formspark -->
+            <form class="contact-form" id="contactForm" action="https://submit-form.com/g5kyBSFDN" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Name" aria-required="true">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" required placeholder="Phone Number" aria-required="true">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" aria-required="true">
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+                <p id="responseMessage" style="display: none;"></p>
+            </form>
+        </div>
+    </section>
+    
+</main>
+      
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:akshatb142@gmail.com" class="footer-link">akshatb142@gmail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locations</p>
+        </li>
+
+        <li>
+          <a href="https://www.google.com/maps/place/Bhiwani" class="footer-link">Bhiwani — India</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://t.me/akshatbhardwaj28" class="social-link" target="_blank">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/akshat.stoic" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://x.com/akshat_stoic" class="social-link" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/akshat-bhardwaj-400518331/" class="social-link" target="_blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
